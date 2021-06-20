@@ -1,2 +1,3 @@
 # homepage
-this website collects case studies invovling the application of automation in publishing
+Publishing AI is an information resource about case studies involving the application of AI in publishing :relaxed:
+
