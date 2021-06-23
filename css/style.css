@@ -338,6 +338,12 @@ a:hover,a:focus {
     justify-content: flex-start;
 }
 
+
+.heading_submain.text_align_left {
+    justify-content: flex-start;
+    font-size:20px;
+}
+
 .padding_top_0 {
 	padding-top: 0 !important;
 }
@@ -1857,7 +1863,7 @@ p.count-text {
 
 .slogan{
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 27px;
 }
 
 .icon-b {
@@ -2164,6 +2170,33 @@ p {
     display: none;
 }
 
+.heading_main h4 {
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    font-weight: 6600;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    line-height: 40px !important;
+}
+
+.heading_main h4 span {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.heading_main h4::after {
+    height: 8px;
+    background: #ff880e;
+    content: "";
+    display: block;
+    transform: skew(-30deg);
+    margin-top: 3px;
+    display: none;
+}
+
 .heading_main p.large {
     font-size: 20px;
     color: #605f5f;
@@ -2243,6 +2276,11 @@ h3.small_heading {
 	margin-top: 30px;
 }
 
+
+.margin-top_40 {
+	margin-top: 40px;
+}
+
 .margin-top_90 {
 	margin-top: 90px;
 }
@@ -2270,7 +2308,9 @@ h3.small_heading {
 .margin-bottom_80 {
 	margin-bottom: 80px !important;
 }
-
+.margin-bottom_100 {
+	margin-bottom: 100px !important;
+}
 .carousel a.carousel-control-prev {
     background: #00cc99;
     opacity: 1;
@@ -2424,7 +2464,7 @@ ul.social_icon li {
 }
 
 .footer_bottom {
-    background: #0f1521;
+    background: #262e41;
     padding: 0 0;
     width: 100%;
     min-height: 60px;
@@ -2436,10 +2476,10 @@ ul.social_icon li {
     float: left;
     margin: 0;
     color: #fff;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     width: 100%;
-    line-height: 60px;
+    line-height: 65px;
     padding-top: 2px;
 }
 
@@ -2679,9 +2719,7 @@ ul.bottom_menu li {
     background-size: cover;
     background-position: center center;
     min-height: auto;
-    padding: 45px 65px 65px;
-    max-width: 770px;
-    margin: 5px 5px 10px, 5px;
+    padding: 35px 45px 35px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
 }
 
