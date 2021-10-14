@@ -7,4 +7,4 @@ The code template is provided by Free Website Templates, pictures are all royalt
 
 This website intends to be an open community hub, if you have any suggestions to improve our website, please email aiandpublisher@gmail.com. 
 
-
+Link to the site: https://www.publishingai.net
